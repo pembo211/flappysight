@@ -1,11 +1,11 @@
 # *flappysight*
 
-*Flappysight* is an open-source FlappyDEV blockchain explorer with complete REST and websocket APIs.
+*Flappysight* is an open-source Flappycoin blockchain explorer with complete REST and websocket APIs.
 Flappysight runs in NodeJS, uses AngularJS for the front-end and LevelDB for storage.
 
-Check some screenshots and more details at [flappysight's project homepage](https://github.com/FlappyDEV/flappysight).
+Check some screenshots and more details at [flappysight's project homepage](https://github.com/pembo211/flappysight).
 
-*Flappysight* project is now split in two repositories. One for the [API](https://github.com/FlappyDEV/flappysight-api)
+*Flappysight* project is now split in two repositories. One for the [API](https://github.com/pembo211/flappysight-api)
 and for the front-end. This repository is for the front-end, which will install the API as a NPM dependency.
 
 
@@ -33,10 +33,10 @@ and for the front-end. This repository is for the front-end, which will install 
     
   Then open a browser and go to:
 
-    http://localhost:3000
+    http://localhost:4000
 
   If *flappysight* reports problems connecting to **flappycoind** please check the CONFIGURATION section of 
-  [flappysight-api README](https://github.com/FlappyDEV/flappysight-api/blob/master/README.md). To set the 
+  [flappysight-api README](https://github.com/pembo211/flappysight-api/blob/master/README.md). To set the 
   environment variables run something like:
   
      $ INSIGHT_NETWORK=livenet BITCOIND_USER=user BITCOIND_PASS=pass INSIGHT_PUBLIC_PATH=public  npm start
@@ -45,7 +45,7 @@ and for the front-end. This repository is for the front-end, which will install 
   Please note that the app will need to sync its internal database
   with the blockchain state, which may take some time. You can check
   sync progress from within the web interface. More details about that process
-  on [flappysight-api README](https://github.com/FlappyDEV/flappysight-api/blob/master/README.md). 
+  on [flappysight-api README](https://github.com/pembo211/flappysight-api/blob/master/README.md). 
   
   
 ## Nginx Setup
