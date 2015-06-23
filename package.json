@@ -6,7 +6,7 @@
     "name": "SS",
     "email": "flappy@flappycoin.io"
   },
-  "repository": "git://github.com/FlappyDEV/flappysight.git",
+  "repository": "git://github.com/pembo211/flappysight.git",
   "contributors": [
     {
       "name": "SS",
@@ -14,9 +14,9 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/FlappyDEV/flappysight/issues"
+    "url": "https://github.com/pembo211/flappysight/issues"
   },
-  "homepage": "https://github.com/FlappyDEV/flappysight",
+  "homepage": "https://github.com/pembo211/flappysight",
   "license": "MIT",
   "keywords": [
     "insight",
@@ -30,7 +30,7 @@
     "start": "INSIGHT_PUBLIC_PATH=public node node_modules/.bin/flappysight-bitcore-api"
   },
   "dependencies": {
-    "flappysight-api": "git://github.com/FlappyDEV/flappysight-api.git"
+    "flappysight-api": "git://github.com/pembo211/flappysight-api.git"
   },
   "devDependencies": {
     "bower": "~1.2.8",
