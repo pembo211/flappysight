@@ -21,7 +21,7 @@ and for the front-end. This repository is for the front-end, which will install 
 
   To install flappysight, clone the main repository:
 
-    $ git clone https://github.com/FlappyDEV/flappysight.git && cd flappysight
+    $ git clone https://github.com/pembo211/flappysight.git && cd flappysight
 
   Install dependencies:
 
